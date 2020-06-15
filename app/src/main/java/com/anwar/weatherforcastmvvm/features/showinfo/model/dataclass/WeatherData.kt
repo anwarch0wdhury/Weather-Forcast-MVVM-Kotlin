@@ -1,0 +1,20 @@
+package com.anwar.weatherforcastmvvm.features.showinfo.model.dataclass
+
+/**
+ * this class will be used in UI to show weather data
+ */
+data class WeatherData(
+        var dateTime: String = "",
+        var temperature: String = "0",
+        var feelslike: String = "0",
+        var windspeed: String = "0",
+        var winddeg: String = "0",
+        var cityAndCountry: String = "",
+        var weatherConditionIconUrl: String = "",
+        var weatherConditionIconDescription: String = "",
+        var humidity: String = "",
+        var pressure: String = "",
+        var visibility: String = "",
+        var sunrise: String = "",
+        var sunset: String = ""
+)

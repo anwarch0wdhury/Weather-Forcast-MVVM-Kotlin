@@ -1,0 +1,2 @@
+rootProject.name='Weather forcast MVVM'
+include ':app'
